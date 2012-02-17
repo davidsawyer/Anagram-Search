@@ -19,19 +19,27 @@ int main(int argc, char **argv)
 	int anagram4_line_number;
 	
 	/* The target anagrams to find */
+	/*--------------------------------------------------------------------*/
+	/*--------------------------------------------------------------------*/
 	char anagram1[] = "heedlessly"; // Testcase 1
 	char anagram2[] = "sedhlsleye"; // Testcase 2
 	char anagram3[] = "taffomeatscenicicalinati"; // Testcase 3
 	char anagram4[] = "loyntnnenoenoymtasrsietbiarjrmnfaaud"; // Testcase 4
+	/*--------------------------------------------------------------------*/
+	/*--------------------------------------------------------------------*/
 	
 	/* Load stdin */
 	load_input();
 	
 	/* Find anagrams */
+	/*--------------------------------------------------------------------*/
+	/*--------------------------------------------------------------------*/i	
 	find_anagram(anagram1, &anagram1_line_number, solved_anagram1);
 	find_anagram(anagram2, &anagram2_line_number, solved_anagram2);
 	find_anagram(anagram3, &anagram3_line_number, solved_anagram3);
 	find_anagram(anagram4, &anagram4_line_number, solved_anagram4);
+	/*--------------------------------------------------------------------*/
+	/*--------------------------------------------------------------------*/
 	
 	/* Required output */
 	printf("Anagram 1 is: %s\n", solved_anagram1);

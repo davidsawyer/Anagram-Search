@@ -1,6 +1,10 @@
 author: Davd Sawyer
 email: davidsawyer10@gmail.com
 
+This anagram search program demonstrates that an anagram, or scrambled word or phrase,
+can be located in it sunscrambled form in a very large body of text in just a few seconds. The anagrams are hardcoded into main.c.
+
+EXECUTION INSTRUCTIONS
 While in the program's current directory, type
 
 make
